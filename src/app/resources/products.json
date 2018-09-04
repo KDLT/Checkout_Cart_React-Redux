@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5968dd23fc13ae04d9000001"
+  },
+  "product_name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
+  "img_src": "https://images-na.ssl-images-amazon.com/images/I/61VtOmDz5lL._SL1500_.jpg",
+  "supplier": "OFM",
+  "quantity": 1,
+  "unit_cost": "$99.42"
+},{
+  "_id": {
+    "$oid": "5968dd23fc13ae04d9000001"
+  },
+  "product_name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Blue",
+  "img_src": "https://images-na.ssl-images-amazon.com/images/I/61N419L-2kL._SL1500_.jpg",
+  "supplier": "OFM",
+  "quantity": 1,
+  "unit_cost": "$101.12"
+},{
+  "_id": {
+    "$oid": "5968dd23fc13ae04d9000001"
+  },
+  "product_name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Green",
+  "img_src": "https://images-na.ssl-images-amazon.com/images/I/61re7MXKkeL._SL1500_.jpg",
+  "supplier": "OFM",
+  "quantity": 1,
+  "unit_cost": "$100.36"
+},{
+  "_id": {
+    "$oid": "5968dd23fc13ae04d9000001"
+  },
+  "product_name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, White",
+  "img_src": "https://images-na.ssl-images-amazon.com/images/I/71i8Nr0FI8L._SL1500_.jpg",
+  "supplier": "OFM",
+  "quantity": 1,
+  "unit_cost": "$99.0"
+},{
+  "_id": {
+    "$oid": "5968dd23fc13ae04d9000001"
+  },
+  "product_name": "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Gray",
+  "img_src": "https://images-na.ssl-images-amazon.com/images/I/61r%2BntRbGjL._SL1500_.jpg",
+  "supplier": "OFM",
+  "quantity": 1,
+  "unit_cost": "$97.29"
+}]

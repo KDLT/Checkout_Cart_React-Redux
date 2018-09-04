@@ -1,0 +1,57 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+$tooltip-content: "Picking up your order in the store helps cut costs, and we pass the savings on to you.";
+$tooltip-parent-size: 1rem;
+$tooltip-fontsize: 0.8rem;
+$border-thickness: $tooltip-fontsize;
+$tooltip-content-Yoffset: $border-thickness*2 + $tooltip-parent-size;
+
+#tooltip {
+  font-size: $tooltip-parent-size;
+  // text-decoration: none;
+  color: black;
+  position: relative;
+  width: 100%;
+}
+#tooltip:hover {
+  cursor: pointer;
+}
+#tooltip::before { // triangle part of speech bubble
+  content: "";
+  position: absolute;
+  visibility: hidden; opacity: 0;
+  width: 0; height: 0;
+  border-left: $border-thickness solid transparent;
+  border-right: $border-thickness solid transparent;
+  border-bottom: $border-thickness solid rgb(231,231,231);
+  margin-left: -$border-thickness;
+  margin-right: -$border-thickness;
+  transition: 0.35s ease;
+  top: 0em; left: 50%;
+}
+#tooltip::after { // content part of speech bubble
+  content: $tooltip-content;
+  font-size: $tooltip-fontsize;
+  padding: 1em;
+  border-radius: 0.6em;
+  width: 100%;
+  background: rgb(231, 231, 231);
+  transition: 0.3s ease;
+  position: absolute;
+  // top: 0;
+  top: -$tooltip-parent-size*2;
+  left: 50%;
+  transform: scale(0) translate(0%, 0%);
+}
+#tooltip:hover::before {
+  opacity: 1;
+  visibility: visible;
+  top: $tooltip-parent-size+0.5rem;
+}
+#tooltip:hover::after {
+  box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
+  transform: scale(1) translate(-50%, $tooltip-content-Yoffset+1.5rem);
+}
