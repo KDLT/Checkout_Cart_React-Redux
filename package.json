@@ -1,0 +1,45 @@
+{
+  "name": "checkout_cart_reactredux",
+  "version": "1.0.0",
+  "description": "react redux project using babel-loader version 8",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --mode development --open --hot",
+    "build:prod": "webpack -p"
+  },
+  "proxy": "http://localhost:3001",
+  "keywords": [
+    "react",
+    "redux",
+    "babel-loader8",
+    "checkout",
+    "cart"
+  ],
+  "author": "kba",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "prop-types": "^15.6.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  }
+}
